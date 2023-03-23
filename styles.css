@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600&display=swap');
+
+
+body {
+    background-color: white;
+    margin: 0;
+    color: rgb(32, 32, 32);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
+    letter-spacing: 1.3px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .form {
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 1.5rem;
+    column-gap: 3rem;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .title {
+    margin: 0;
+    text-align: center;
+  }
+  
+  label {
+    font-weight:400;
+    font-size: medium;
+  }
+  
+  .character-amount-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .number-input {
+    width: 2rem;
+  }
+  
+  .password-display {
+    background-color: white;
+    color: black;
+    padding: 1rem;
+    border-bottom: 1px solid rgb(32, 32, 32);
+    height: 2rem;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-break: break-all;
+    letter-spacing: 15px;
+    font-size: larger;
+  }
+  
+  .btn {
+    grid-column: span 2;
+    background-color: transparent;
+    border: 2px solid rgb(32, 32, 32);
+    color: rgb(32, 32, 32);
+    padding: .5rem 1rem;
+    font-weight: bold;
+    letter-spacing: 1.3px;
+    cursor: pointer;
+    border-radius: 1rem;
+  }
+  
+  .btn:hover {
+    background-color: #FFFFFF33;
+  }
